@@ -50,11 +50,12 @@ ol {
 .content {
   display: flex;
   gap: 30px;
-  padding: 133px 30px;
+  padding: 133px 0;
+  margin: 0 auto;
 }
 
 .result {
-  background-color: blue;
+
 }
 .result__video-container {
   display: flex;
@@ -68,16 +69,64 @@ ol {
   display: flex;
   justify-content: space-between;
   align-items: end;
+  margin-top: 16px;
+}
+
+.search-form__fieldset{
+  border: none;
+}
+
+.search-form__fieldset-title{
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans Condensed;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 5px;
 }
 
 .search-form__textfield {
   width: 225px;
   height: 27px;
+  background-color: inherit;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Fira Sans Condensed;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  border: none;
+  border-top: solid 1px rgba(255, 255, 255);
+  border-bottom: solid 1px rgba(255, 255, 255);
+}
+
+.search-form__label {
+  display: flex;
+}
+
+
+.search-form__checkbox[type='checkbox'] + .search-form__pseudo-checkbox {
+ 
+  height: 19px;
+  width: 19px;
+  border: solid 1px rgba(255, 255, 255);
 }
 
 .search-form__submit-button {
   width: 194px;
   height: 34px;
+  background-color: inherit;
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans Condensed;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
 }
 
 .content__details {
