@@ -36,3 +36,51 @@ ul,
 ol {
   list-style: none;
 }
+
+.visually-hidden {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.content {
+  display: flex;
+  gap: 30px;
+  padding: 133px 30px;
+}
+
+.result {
+  background-color: blue;
+}
+.result__video-container {
+  display: flex;
+}
+
+.result__video {
+  width: 711px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.search-form__textfield {
+  width: 225px;
+  height: 27px;
+}
+
+.search-form__submit-button {
+  width: 194px;
+  height: 34px;
+}
+
+.content__details {
+  background-color: aqua;
+
+}
